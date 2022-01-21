@@ -4,7 +4,7 @@ export default function CheckoutItems({ itemData = [] }) {
   const [data, setData] = useState([]);
   useEffect(() => {
     setData(itemData);
-  }, []);
+  });
 
   return (
     <>
