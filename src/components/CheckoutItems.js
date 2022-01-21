@@ -4,6 +4,7 @@ export default function CheckoutItems({ itemData = [] }) {
   const [data, setData] = useState([]);
   useEffect(() => {
     setData(itemData);
+    alert(window.location.href);
   }, [itemData]);
 
   return (
