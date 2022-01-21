@@ -14,7 +14,7 @@ export default function CheckoutItems({ itemData = [] }) {
           <li className="list-group-item ">
             <img
               src={listitem.image}
-              style={{ height: 40, width: 40 }}
+              style={{ height: 140, width: 40 }}
               alt=""
             />
             {listitem.name}
